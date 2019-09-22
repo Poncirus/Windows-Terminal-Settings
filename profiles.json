@@ -2,23 +2,38 @@
     "globals" : 
     {
         "alwaysShowTabs" : true,
+        "copyOnSelect" : true,
         "defaultProfile" : "{0a9ea213-9dd8-41d1-ac70-6c02d1df335e}",
         "initialCols" : 120,
         "initialRows" : 30,
         "keybindings" : 
         [
             {
-                "command" : "closeTab",
+                "command" : "closePane",
                 "keys" : 
                 [
-                    "ctrl+w"
+                    "ctrl+shift+w"
+                ]
+            },
+            {
+                "command" : "copy",
+                "keys" : 
+                [
+                    "ctrl+shift+c"
+                ]
+            },
+            {
+                "command" : "duplicateTab",
+                "keys" : 
+                [
+                    "ctrl+shift+d"
                 ]
             },
             {
                 "command" : "newTab",
                 "keys" : 
                 [
-                    "ctrl+t"
+                    "ctrl+shift+t"
                 ]
             },
             {
@@ -92,10 +107,24 @@
                 ]
             },
             {
+                "command" : "openNewTabDropdown",
+                "keys" : 
+                [
+                    "ctrl+shift+space"
+                ]
+            },
+            {
                 "command" : "openSettings",
                 "keys" : 
                 [
                     "ctrl+,"
+                ]
+            },
+            {
+                "command" : "paste",
+                "keys" : 
+                [
+                    "ctrl+shift+v"
                 ]
             },
             {
@@ -137,69 +166,70 @@
                 "command" : "switchToTab0",
                 "keys" : 
                 [
-                    "alt+1"
+                    "ctrl+alt+1"
                 ]
             },
             {
                 "command" : "switchToTab1",
                 "keys" : 
                 [
-                    "alt+2"
+                    "ctrl+alt+2"
                 ]
             },
             {
                 "command" : "switchToTab2",
                 "keys" : 
                 [
-                    "alt+3"
+                    "ctrl+alt+3"
                 ]
             },
             {
                 "command" : "switchToTab3",
                 "keys" : 
                 [
-                    "alt+4"
+                    "ctrl+alt+4"
                 ]
             },
             {
                 "command" : "switchToTab4",
                 "keys" : 
                 [
-                    "alt+5"
+                    "ctrl+alt+5"
                 ]
             },
             {
                 "command" : "switchToTab5",
                 "keys" : 
                 [
-                    "alt+6"
+                    "ctrl+alt+6"
                 ]
             },
             {
                 "command" : "switchToTab6",
                 "keys" : 
                 [
-                    "alt+7"
+                    "ctrl+alt+7"
                 ]
             },
             {
                 "command" : "switchToTab7",
                 "keys" : 
                 [
-                    "alt+8"
+                    "ctrl+alt+8"
                 ]
             },
             {
                 "command" : "switchToTab8",
                 "keys" : 
                 [
-                    "alt+9"
+                    "ctrl+alt+9"
                 ]
             }
         ],
         "requestedTheme" : "system",
         "showTabsInTitlebar" : true,
-        "showTerminalTitleInTitlebar" : true
+        "showTerminalTitleInTitlebar" : true,
+        "wordDelimiters" : " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
     },
     "profiles" : 
     [
@@ -224,7 +254,6 @@
         },
         {
             "acrylicOpacity" : 0.75,
-            "background" : "#00B8E6",
             "closeOnExit" : true,
             "colorScheme" : "Campbell",
             "commandline" : "cmd.exe",
@@ -242,7 +271,44 @@
             "useAcrylic" : true
         },
         {
-            "acrylicOpacity" : 0.69999998807907104,
+            "acrylicOpacity" : 0.59999999999999998,
+            "closeOnExit" : false,
+            "colorScheme" : "Vintage",
+            "commandline" : "Azure",
+            "connectionType" : "{d9fcfdfa-a479-412c-83b7-c5640e61cd62}",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "Consolas",
+            "fontSize" : 10,
+            "guid" : "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "historySize" : 9001,
+            "icon" : "ms-appx:///ProfileIcons/{b453ae62-4e3d-5e58-b989-0a998ec441b8}.png",
+            "name" : "Azure Cloud Shell",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : true
+        },
+        {
+            "acrylicOpacity" : 0.5,
+            "closeOnExit" : true,
+            "colorScheme" : "Campbell",
+            "commandline" : "wsl.exe -d Ubuntu",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "Consolas",
+            "fontSize" : 10,
+            "guid" : "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "historySize" : 9001,
+            "icon" : "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+            "name" : "Ubuntu",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false
+        },
+        {
+            "acrylicOpacity" : 0.7,
             "closeOnExit" : true,
             "colorScheme" : "Solarized Dark",
             "commandline" : "powershell.exe",
@@ -253,11 +319,11 @@
             "guid" : "{0a9ea213-9dd8-41d1-ac70-6c02d1df335e}",
             "historySize" : 9001,
             "icon" : "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-            "name" : "Costom Powershell",
+            "name" : "Costom PowerShell",
             "padding" : "20, 20, 20, 20",
             "snapOnInput" : true,
-            "startingDirectory" : "D:/ssh",
-            "useAcrylic" : true
+            "startingDirectory" : "E:/ssh",
+            "useAcrylic" : false
         }
     ],
     "schemes" : 
@@ -282,6 +348,27 @@
             "red" : "#C50F1F",
             "white" : "#CCCCCC",
             "yellow" : "#C19C00"
+        },
+        {
+            "background" : "#000000",
+            "black" : "#000000",
+            "blue" : "#000080",
+            "brightBlack" : "#808080",
+            "brightBlue" : "#0000FF",
+            "brightCyan" : "#00FFFF",
+            "brightGreen" : "#00FF00",
+            "brightPurple" : "#FF00FF",
+            "brightRed" : "#FF0000",
+            "brightWhite" : "#FFFFFF",
+            "brightYellow" : "#FFFF00",
+            "cyan" : "#008080",
+            "foreground" : "#C0C0C0",
+            "green" : "#008000",
+            "name" : "Vintage",
+            "purple" : "#800080",
+            "red" : "#800000",
+            "white" : "#C0C0C0",
+            "yellow" : "#808000"
         },
         {
             "background" : "#282C34",
