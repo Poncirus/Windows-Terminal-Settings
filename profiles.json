@@ -1,4 +1,5 @@
 {
+    "$schema": "https://aka.ms/terminal-profiles-schema",
     "globals" : 
     {
         "alwaysShowTabs" : true,
@@ -292,7 +293,7 @@
         {
             "acrylicOpacity" : 0.5,
             "closeOnExit" : true,
-            "colorScheme" : "Campbell",
+            "colorScheme" : "One Half Dark",
             "commandline" : "wsl.exe -d Ubuntu",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
@@ -308,9 +309,9 @@
             "useAcrylic" : false
         },
         {
-            "acrylicOpacity" : 0.7,
+            "acrylicOpacity" : 0.75,
             "closeOnExit" : true,
-            "colorScheme" : "Solarized Dark",
+            "colorScheme" : "Costom Solarized Dark",
             "commandline" : "powershell.exe",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
@@ -323,7 +324,7 @@
             "padding" : "20, 20, 20, 20",
             "snapOnInput" : true,
             "startingDirectory" : "E:/ssh",
-            "useAcrylic" : false
+            "useAcrylic" : true
         }
     ],
     "schemes" : 
@@ -428,6 +429,27 @@
             "foreground" : "#839496",
             "green" : "#859900",
             "name" : "Solarized Dark",
+            "purple" : "#D33682",
+            "red" : "#DC322F",
+            "white" : "#EEE8D5",
+            "yellow" : "#B58900"
+        },
+        {
+            "background" : "#002B36",
+            "black" : "#073642",
+            "blue" : "#268BD2",
+            "brightBlack" : "#406370",
+            "brightBlue" : "#839496",
+            "brightCyan" : "#93A1A1",
+            "brightGreen" : "#586E75",
+            "brightPurple" : "#6C71C4",
+            "brightRed" : "#CB4B16",
+            "brightWhite" : "#FDF6E3",
+            "brightYellow" : "#657B83",
+            "cyan" : "#2AA198",
+            "foreground" : "#839496",
+            "green" : "#859900",
+            "name" : "Costom Solarized Dark",
             "purple" : "#D33682",
             "red" : "#DC322F",
             "white" : "#EEE8D5",
