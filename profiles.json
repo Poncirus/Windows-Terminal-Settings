@@ -323,7 +323,7 @@
             "name" : "Costom PowerShell",
             "padding" : "20, 20, 20, 20",
             "snapOnInput" : true,
-            "startingDirectory" : "E:/ssh",
+            "startingDirectory" : "C:/Users/login/Links",
             "useAcrylic" : true
         },
         {
