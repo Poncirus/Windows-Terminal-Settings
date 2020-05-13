@@ -287,7 +287,7 @@
             "name": "Costom PowerShell",
             "padding": "20, 20, 20, 20",
             "snapOnInput": true,
-            "startingDirectory": "C:/Users/login/Links",
+            "startingDirectory": "%USERPROFILE%/Links",
             "useAcrylic": true
         },
         {
