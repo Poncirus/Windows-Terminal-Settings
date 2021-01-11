@@ -1,6 +1,8 @@
 # Windows-Terminal-Settings
 My settings file for windows terminal
 
+![Effect](./effect.gif)
+
 ## set up
 
 - move to settings folder
