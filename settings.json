@@ -219,14 +219,14 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
                 "name": "Windows PowerShell",
-                "startingDirectory": "%USERPROFILE%/Links"
+                "startingDirectory": "%USERPROFILE%/Start"
             },
             {
                 "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "name": "cmd",
-                "startingDirectory": "%USERPROFILE%/Links"
+                "startingDirectory": "%USERPROFILE%/Start"
             },
             {
                 "commandline": "Azure",
