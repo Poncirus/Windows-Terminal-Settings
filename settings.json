@@ -200,8 +200,10 @@
     {
         "defaults":
         {
+            "backgroundImage": "%LOCALAPPDATA%\\packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\background.gif",
+            "backgroundImageOpacity": 0.2,
             "useAcrylic": true,
-            "acrylicOpacity": 0.75,
+            "acrylicOpacity": 0.9,
             "colorScheme": "Gruvbox Dark",
             "fontSize": 11,
             "fontFace": "Consolas",
