@@ -1,6 +1,6 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "alwaysShowTabs": true,
     "showTabsInTitlebar": true,
     "showTerminalTitleInTitlebar": true,
@@ -206,7 +206,7 @@
             "acrylicOpacity": 0.9,
             "colorScheme": "Gruvbox Dark",
             "fontSize": 11,
-            "fontFace": "Consolas",
+            "fontFace": "Cascadia Code PL",
             "cursorShape": "bar",
             "cursorColor": "#383A42",
             "padding": "20, 20, 20, 20",
@@ -218,10 +218,17 @@
         [
             {
                 "commandline": "powershell.exe",
+                "hidden": true,
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
                 "name": "Windows PowerShell",
                 "startingDirectory": "%USERPROFILE%/Start"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "commandline": "cmd.exe",
