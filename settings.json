@@ -244,6 +244,12 @@
                 "icon": "ms-appx:///ProfileIcons/{b453ae62-4e3d-5e58-b989-0a998ec441b8}.png",
                 "name": "Azure Cloud Shell",
                 "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "commandline": "ssh root@liaohanwen.com",
+                "guid": "{61c54bbd-c2c6-5271-96e7-000000000001}",
+                "icon": "%LOCALAPPDATA%\\packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\favicon.png",
+                "name": "liaohanwen.com"
             }
         ]
     },
