@@ -208,7 +208,7 @@
             "fontSize": 11,
             "fontFace": "Cascadia Code PL",
             "cursorShape": "bar",
-            "cursorColor": "#383A42",
+            "cursorColor": "#e6d4a3",
             "padding": "20, 20, 20, 20",
             "historySize": 9001,
             "snapOnInput": true,
